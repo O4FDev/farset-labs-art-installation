@@ -60,7 +60,7 @@ document.addEventListener( "DOMContentLoaded", function ()
 
                 // Draw a white circle based on the average brightness (inverted colors)
                 ctx.beginPath()
-                ctx.arc( x + roiWidth / 2, y + roiHeight / 2, R / 0.5, 0, 2 * Math.PI )
+                ctx.arc( x + roiWidth / 2, y + roiHeight / 2, R / 1, 0, 2 * Math.PI )
                 ctx.fillStyle = 'white'
                 ctx.fill()
             }
